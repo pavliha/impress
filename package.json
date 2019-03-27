@@ -1,0 +1,31 @@
+{
+  "name": "partymaker",
+  "version": "4.1.0",
+  "adonis-version": "4.1.0",
+  "description": "The fullstack application boilerplate for Adonisjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r module-alias/register -r esm server.js",
+    "inspect": "nodemon --inspect-brk -r module-alias/register -r esm server.js"
+  },
+  "keywords": [
+    "partymaker"
+  ],
+  "author": "Partymaker team",
+  "license": "UNLICENSED",
+  "private": true,
+  "_moduleAliases": {
+    "config": "./config"
+  },
+  "dependencies": {
+    "@adonisjs/core": "^1.6.2",
+    "@adonisjs/fold": "^5.0.7",
+    "@adonisjs/request": "latest",
+    "@adonisjs/response": "latest",
+    "@adonisjs/router": "latest",
+    "@adonisjs/server": "^2.0.2",
+    "esm": "^3.2.20",
+    "module-alias": "^2.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
